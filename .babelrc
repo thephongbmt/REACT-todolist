@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "es2015",
+    "react"
+  ],
+  "sourceMaps": true,
+  "retainLines": true,
+  // plugin for arrow function in class component
+  "plugins": [
+    [
+      "transform-class-properties",
+      {
+        "spec": true
+      }
+    ]
+  ]
+}
