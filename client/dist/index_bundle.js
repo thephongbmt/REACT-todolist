@@ -21274,6 +21274,8 @@ ToDoList = function (_React$Component) {_inherits(ToDoList, _React$Component);
         {
             return (
                 _react2.default.createElement('div', null,
+                    _react2.default.createElement('span', null, 'Click on task to done task'), _react2.default.createElement('br', null),
+                    _react2.default.createElement('span', null, 'click x for remove task'),
                     _react2.default.createElement(_InputTDL2.default, { addNewTask: this.addNewTask, isExist: this.isExist }),
                     _react2.default.createElement(_ToDoListIterm2.default, { todos: this.state.todos, DoneTask: this.DoneTask, removeNewTask: this.removeNewTask })));
 
